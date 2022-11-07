@@ -22,6 +22,14 @@ public class Main4 {
             System.out.println(position);
         }
 
+//        System.out.println(op.isValueInArray(myArray, 5));
+
+        if (op.isValueInArray(myArray, 5876)){
+            System.out.println("value in array");
+        }else {
+            System.out.println("value not in array");
+        }
+
 
     }
 }

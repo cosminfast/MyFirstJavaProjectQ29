@@ -106,35 +106,45 @@ public class LogicalOperations {
         }
     }
 
-    public int[] getArrayOfValues(int positions){
+    public int[] getArrayOfValues(int positions) {
         int[] myArray = new int[positions];
-        for (int i = 0; i < myArray.length; i++){
+        for (int i = 0; i < myArray.length; i++) {
             myArray[i] = i + 1;
         }
         return myArray;
     }
 
-    public void printArray(int[] myArray){
-        for (int i = 0; i < myArray.length; i++){
-            System.out.print(myArray[i]+ " ");
+    public void printArray(int[] myArray) {
+        for (int i = 0; i < myArray.length; i++) {
+            System.out.print(myArray[i] + " ");
         }
     }
 
-    public float getAverageFromArray(int[] myArray){
+    public float getAverageFromArray(int[] myArray) {
 
         float sum = 0;
-        for (int i = 0; i < myArray.length; i ++){
-            sum+=myArray[i];
+        for (int i = 0; i < myArray.length; i++) {
+            sum += myArray[i];
         }
-        return sum/myArray.length;
+        return sum / myArray.length;
     }
 
-    public int getIndexForValue(int[] array, int value){
-        for (int i = 0; i < array.length; i++){
-            if (array[i] == value){
+    public int getIndexForValue(int[] array, int value) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == value) {
                 return i;
             }
         }
         return -1;
+    }
+
+    public boolean isValueInArray(int[] array, int value) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == value) {
+                return true;
+            }
+
+        }
+        return false;
     }
 }
