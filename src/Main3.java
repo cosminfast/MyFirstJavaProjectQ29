@@ -21,8 +21,11 @@ public class Main3 {
 
 //        logicalOp.printFromFirstToLast(first,last);
 
-        System.out.println(logicalOp.averageFromNumberToNumber(111,8899));
+//        System.out.println(logicalOp.averageFromNumberToNumber(111,8899));
 
+//        System.out.println(logicalOp.getAverageNumbersInInterval(1, 22));
+
+        logicalOp.printCozaLozaWoza();
 
     }
 }
