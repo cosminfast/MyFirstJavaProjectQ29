@@ -30,12 +30,17 @@ public class AppMain {
 //
 //        rudolph.sleep();
 
-        Pug rex = new Pug();
-        rex.setName("Rex");
+//        Pug rex = new Pug();
+//        rex.setName("Rex");
+//
+//        Pug max = new Pug();
+//        max.setName("Max");
+//        max.speak();
 
-        Pug max = new Pug();
-        max.setName("Max");
-        max.speak();
+        Cat tobby = new Cat();
+        System.out.println(tobby.getAge());
+
+        tobby.setAge(2);
 
     }
 }

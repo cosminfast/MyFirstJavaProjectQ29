@@ -1,9 +1,36 @@
 package AnimalRescue;
 
-public class Cat extends Animal{
+public class Cat {
+
+    private String name;
+    private int age;
+
+    Cat(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    Cat(){
+        System.out.println("Created!");
+    }
 
     public void tailWagging() {
         System.out.println("Wagging the tail");
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
