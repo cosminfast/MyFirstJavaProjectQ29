@@ -36,6 +36,8 @@ public class AppMain {
         Pug max = new Pug();
         max.setName("Max");
         max.speak();
+        Dog dog = new Dog();
+        dog.speak();
 
     }
 }

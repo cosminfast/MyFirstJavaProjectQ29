@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class LogicalOperations {
 
     public int getGreaterNumber(int first, int second) {
@@ -144,6 +146,34 @@ public class LogicalOperations {
                 return true;
             }
 
+        }
+        return false;
+    }
+
+    //Scrieti o metoda Java, care sa primeasca doi parametrii:
+    // un parametru de tip Lista, iar celalalt un numar intreg.
+    // Sa se parcurga lista si sa afiseze, pe rand, toate valorile din lista,
+    // fiecare pe rand nou, pornind de la numarul intreg primit ca si parametru.
+
+    public void printListFromNumber(List<Integer> myList, int number){
+        for(int i = number;i < myList.size(); i++){
+            System.out.println(myList.get(i));
+        }
+    }
+    //Scrieti o metoda Java, care sa primeasca trei parametrii:
+    // unul de tip Lista de String-uri, unul de tip intreg,
+    // si unul de tip String. Metoda sa adauge parametrul de tip
+    // String in lista primita, iar parametrul de tip intreg
+    // reprezinta pozitia la care sa fie pus acel String.
+
+    public void addStringToList(List<String> myList, int position, String text){
+        myList.add(position,text);
+    }
+    public boolean verifyTextInList(List<String> myList, String text){
+        for(String x:myList){
+            if(x.equals(text)){
+                return true;
+            }
         }
         return false;
     }
