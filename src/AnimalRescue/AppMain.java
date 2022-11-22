@@ -39,5 +39,8 @@ public class AppMain {
         Dog dog = new Dog();
         dog.speak();
 
+
+
+        BritishShortHair asads = new BritishShortHair();
     }
 }

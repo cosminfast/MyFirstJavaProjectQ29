@@ -25,6 +25,11 @@ public class Main6 {
 
 
         Read read = new Read();
-        System.out.println("numarul introdus e: " + read.getInt());
+//        System.out.println("numarul introdus e: " + read.getInt());
+//
+        LogicalOperations op = new LogicalOperations();
+
+        int[] myArray2 = read.getArrayOfNumbers(3);
+        op.printArray(myArray2);
     }
 }

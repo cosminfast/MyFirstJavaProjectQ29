@@ -4,7 +4,7 @@ import java.util.List;
 public class Main5 {
     public static void main(String[] args) {
 
-//        List<String> myList = new ArrayList<>();
+        List<String> myList = new ArrayList<>();
 //
 //        myList.add("First element");
 //        myList.add("Second element");
